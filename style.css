@@ -19,11 +19,10 @@ img{max-width:100%;height:auto}
 .shop-hero>div:first-child>p:not(.eyebrow){max-width:540px;font-size:1.05rem;line-height:1.65;margin:2rem 0}
 .stay-mark{display:flex;align-items:center;justify-content:center}
 .stay-mark img{width:min(446px,100%);height:auto;mix-blend-mode:normal;image-rendering:auto}
-.marquee{display:flex;justify-content:center;gap:1.5rem;padding:1.2rem 5vw;background:#191913;color:#f7f3ea;letter-spacing:.15em;font-size:.72rem;font-weight:700}
 .section{padding:8vw 5vw}
 .section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:3rem;gap:3rem}
 .section h2{font-size:clamp(2.5rem,4.5vw,4.5rem)}
-.section-head>p{max-width:330px;line-height:1.5}
+.section-head>p{max-width:430px;line-height:1.5}
 .products{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
 .product-image{display:block;position:relative;background:#e9e4d9;overflow:hidden}
 .product-image img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover;transition:transform .5s}
@@ -34,6 +33,12 @@ img{max-width:100%;height:auto}
 .product-info p{font-size:.75rem;margin:0;color:#6c695f}
 .small-button{padding:.55rem .7rem;font-size:.65rem;white-space:nowrap}
 .placeholder{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;background:#ded8cb;color:#777265;font-family:Manrope;font-size:1.3rem;font-weight:800;letter-spacing:.05em}
+.catalogue-placeholder{aspect-ratio:4/5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.55rem;text-align:center;background:#e5dfd2;color:#6c695f;font-family:Manrope;letter-spacing:.06em}
+.catalogue-placeholder .swatch{width:88px;height:88px;border-radius:50%;border:7px solid rgba(247,243,234,.9);box-shadow:0 4px 20px rgba(23,23,19,.12)}
+.catalogue-placeholder>span{font-size:.78rem;font-weight:800}
+.catalogue-placeholder small{font-family:'DM Sans',sans-serif;font-size:.58rem;letter-spacing:.12em;color:#807b70}
+.catalogue-card .product-info{min-height:118px}
+.catalogue-sizes{margin-top:.35rem!important;font-size:.68rem!important}
 .quality-teaser,.story-teaser{display:grid;grid-template-columns:1fr 1fr;gap:8vw;padding:7vw 5vw}
 .quality-teaser{background:#d9d5c7}
 .quality-teaser h2,.story-teaser h2{font-size:clamp(2.5rem,4.5vw,4.5rem)}
